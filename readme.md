@@ -123,13 +123,6 @@ S1(config-line)#exit
 S1(config)#service password-encryption
 S1(config)#no ip domain-lookup
 S1(config)#logging synchronous
-S1(config)#banner motd ^C
-*****************************************************************
-*               Unauthorized Access is Prohibited!               *
-*            Only authorized personnel are allowed access.       *
-*          All activities are logged and monitored.              *
-*****************************************************************
-^C
 S1(config)#exit
 S1#copy running-config startup-config
 # Router-with-Three-LANs-DHCP
